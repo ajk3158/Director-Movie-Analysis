@@ -1,4 +1,4 @@
-# Director Movie Analysis
+# Director and Movie Analysis
 ## Table of Contents
 - [Introduction](#introduction)
 - [Technologies](#technologies)
