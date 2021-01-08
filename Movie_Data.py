@@ -8,7 +8,6 @@ director's films and the film's respective IDMB Scores
 '''
 #Importing needed packages
 import pandas as pd
-import numpy as np
 import plotly.express as px
 
 #Read in movie data set
