@@ -33,11 +33,11 @@ print(fig.show())
 
 #Finds the movie with the highest rating and the movie with the lowest rating
 bmIndex = directorWork.imdb_score.sort_values(ascending = False).head(1).index[0]
-bestMovie = df.iloc[bmIndex].movie_title
-bmScore = df.iloc[bmIndex].imdb_score
+bestMovie = df.loc[bmIndex].movie_title
+bmScore = df.loc[bmIndex].imdb_score
 wmIndex = directorWork.imdb_score.sort_values().head(1).index[0]
-worstMovie = df.iloc[wmIndex].movie_title
-wmScore = df.iloc[wmIndex].imdb_score
+worstMovie = df.loc[wmIndex].movie_title
+wmScore = df.loc[wmIndex].imdb_score
 
 #prints the director's highest rated film and the director's lowest rated film
 print("{}'s highest rated film is {} with an IMDB score of {}".format(director1, str(bestMovie), str(bmScore)))
