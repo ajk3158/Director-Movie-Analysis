@@ -12,7 +12,7 @@ This Python program analyzes a movie metadata set to produce a bar chart compari
 - Pydev for Eclipse 8.1.0
 
 ## Setup
-To run this project, install it locally and run on a Python-capable IDE.
+To run this project, install it locally along with the given csv file and run on a Python-capable IDE. Ensure that both the program and movie metadata set are within the same folder.
 
 ## Features
 - Observe the different movies different directors have produced
