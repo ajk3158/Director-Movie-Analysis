@@ -6,7 +6,7 @@
 - [Features](#features)
 
 ## Introduction
-This Python program analyzes a movie metadata set to produce a bar chart comparing the films and the films' respective IMDB scores for a particular director inputted by the user. 
+This repository contains a Python program that analyzes a movie metadata set to produce a bar chart comparing the films and the films' respective IMDB scores for a particular director inputted by the user. 
 
 ## Technologies
 - Pydev for Eclipse 8.1.0
